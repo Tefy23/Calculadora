@@ -1,0 +1,35 @@
+body{
+    background-color: cadetblue;
+    text-align: center;
+}
+.calculadora{
+    display: block;
+    margin:0 auto;
+    padding: 20px;
+    background-color: black;
+    width: 300px;
+    //height: 500px;
+    border-radius: 25px;
+}
+.calculadora [type=button]{
+    border="6"
+    //background-color: blueviolet;
+    display: block;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+#result{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 260px;
+    height: 100px;
+    line-height: 100px;
+    background-color: bisque;
+    border-radius: 25px;
+    overflow-y: scroll;
+}
+
