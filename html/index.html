@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+</head>
+<body onload="init();" background="cadetblue">
+    <table class="calculadora" border="6">
+        <tr>
+            <td colspan="4"><span id="result"></span></td>
+        </tr>
+        <tr>
+            <td><button type="button" class="btn btn-outline-success" id="siete">7</button></td>
+            <td><button type="button" class="btn btn-outline-warning" id="ocho">8</button></td>
+            <td><button type="button" class="btn btn-outline-danger" id="nueve">9</button></td>
+            <td><button type="button" class="btn btn-outline-info"id="division">/</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" class="btn btn-outline-info" id="seis">6</button></td>
+            <td><button type="button" class="btn btn-outline-secondary" id="cinco">5</button></td>
+            <td><button type="button" class="btn btn-outline-primary" id="cuatro">4</button></td>
+            <td><button type="button" class="btn btn-outline-success" id="multi">*</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" class="btn btn-outline-success" id="tres">3</button></td>
+            <td><button type="button" class="btn btn-outline-info" id="dos">2</button></td>
+            <td><button type="button" class="btn btn-outline-warning" id="uno">1</button></td>
+            <td><button type="button" class="btn btn-outline-danger" id="resta">-</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" class="btn btn-outline-secondary" id="igual">=</button></td>
+            <td><button type="button" class="btn btn-outline-danger" id="reset">C</button></td>
+            <td><button type="button" class="btn btn-outline-primary" id="cero">0</button></td>
+            <td><button type="button" class="btn btn-outline-info" id="suma">+</button></td>
+        </tr>
+    </table>
+    <script src="../funciones/funciones.js"></script>
+</body>
+</html>
